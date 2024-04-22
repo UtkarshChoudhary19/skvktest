@@ -1,4 +1,5 @@
 
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
 /*======================================
 //--//-->   STYLES GENERALES
@@ -26,6 +27,22 @@ a {
 a:hover {
   color: cornflowerblue;
   text-decoration: none;
+}
+
+
+@media screen and  (max-width: 768px){
+    .legaccy{
+      display: block;
+      text-align: center;
+    }
+  
+}
+
+@media screen and  (max-width: 768px){
+  .legacccy{
+    margin: auto;
+  }
+
 }
 
 .link-two {
@@ -251,7 +268,7 @@ a:hover {
 
 .title-a {
   font-size: 4rem;
-  font-family:math;
+  font-family: "Playfair Display", serif;
   /* color: cornflowerblue; */
   text-transform: capitalize;
   /* border: 2px solid cornflowerblue; */
@@ -1318,6 +1335,7 @@ a:hover {
 }
 
 .title-c {
+  font-family: "Playfair Display", serif;
   font-size: 2.5rem;
   font-weight: 600;
 }
@@ -2015,6 +2033,7 @@ footer .credits {
 
   .card-body-c {
     padding: 0;
+    font-family: "DM Sans";
   }
 }
 
