@@ -18,6 +18,14 @@ nav{
   font-weight: 400;
   font-style: normal;
 }
+
+@media screen and (max-width: 786px) {
+  .sampatilogo{
+    display: none;
+  }
+}  
+
+
 nav .wrapper{
   background: black;
   color: white;
@@ -134,7 +142,7 @@ nav .wrapper{
   color: cornflowerblue;
 }
 .wrapper .btn{
-  color: black;
+  color: white;
   font-size: 20px;
   cursor: pointer;
   display: none;
@@ -156,7 +164,7 @@ nav .wrapper{
     max-width: 350px;
     top: 0;
     left: -100%;
-    background: white;
+    background: black;
     display: block;
     padding: 50px 10px;
     line-height: 50px;
@@ -212,7 +220,7 @@ nav .wrapper{
   }
   .nav-links .mobile-item{
     display: block;
-    color: black;
+    color: white;
     font-size: 20px;
     font-weight: 500;
     padding-left: 20px;
