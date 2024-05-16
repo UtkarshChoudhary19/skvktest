@@ -19,18 +19,22 @@ nav{
   font-style: normal;
 }
 
+
+
+
 @media screen and (max-width: 786px) {
   .sampatilogo{
     display: none;
   }
-}  
+} 
+
 
 
 nav .wrapper{
   background: black;
   color: white;
   position: relative;
-  max-width: 1300px;
+  max-width: 100%;
   padding: 0px 30px;
   height: 70px;
   z-index: 999;
