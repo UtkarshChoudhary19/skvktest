@@ -6,6 +6,7 @@
 ======================================*/
 
 body {
+  overflow-x: hidden;
   font-family:"Josefin Sans", sans-serif;
   color: #555555;
 }
@@ -111,7 +112,8 @@ a:hover {
 }
 
 .color-text-a {
-  color: #555555;
+  font-family: "Playfair Display", serif;
+  color: black;
 }
 
 .no-margin {
@@ -978,7 +980,7 @@ a:hover {
 }
 
 .intro-single .title-single-box {
-  border-left: 3px solid #2eca6a;
+  border-left: 3px solid #118DFF ;
 }
 
 .intro-single .title-single-box .title-single {
@@ -1218,12 +1220,14 @@ a:hover {
 }
 
 .post-content {
+  font-family: "Playfair Display", serif;
   font-size: 1.1rem;
   font-weight: 300;
   line-height: 1.6;
 }
 
 .post-content .post-intro {
+  font-family: "Playfair Display", serif;
   font-size: 1.7rem;
   font-weight: 300;
   margin-bottom: 4rem;

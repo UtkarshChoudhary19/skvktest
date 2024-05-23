@@ -1,12 +1,4 @@
 
-
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
-
-
-
-@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
-
-
 @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Cabin+Condensed:wght@400;500;600;700&display=swap');
 
 
@@ -30,9 +22,7 @@
     object-fit: cover;
 }
 .carousel .list .item .content{
-    /* font-family: "Agbalumo"; */
     font-family: serif;
-    /* font-family: "Cabin Condensed", sans-serif; */
     font-weight: 400;
     font-style: normal;
     text-align: center;
@@ -44,10 +34,9 @@
     max-width: 80%;
     left: 50%;
     transform: translateX(-50%);
-    /* background: rgba(255,255,255,.3); */
-    /* box-shadow: 0 5px 15px rgba(0,0,0,.9); */
+    
     box-sizing: border-box;
-    /* color:cornflowerblue; */
+    
 }
 .carousel .list .item .author{
     font-weight: bold;
@@ -59,9 +48,7 @@
     font-weight: bold;
     line-height: 1.3em;
 }
-/* .carousel .list .item .topic{
-    color: #f1683a;
-} */
+
 .carousel .list .item .buttons{
     display: grid;
     grid-template-columns: repeat(2, 130px);
@@ -117,29 +104,7 @@
 .thumbnail .item .content .description{
     font-weight: 300;
 }
-/* arrows */
-/* .arrows{
-    position: absolute;
-    top: 80%;
-    right: 52%;
-    z-index: 100;
-    width: 300px;
-    max-width: 30%;
-    display: flex;
-    gap: 10px;
-    align-items: center;
-} */
-/* .arrows button{
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: #eee4;
-    border: none;
-    color: #fff;
-    font-family: monospace;
-    font-weight: bold;
-    transition: .5s;
-} */
+
 .arrows button:hover{
     background-color: #fff;
     color: #000;
